@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .turn{
+    @apply bg-blue-600 text-white;
+  }
+}
